@@ -12,9 +12,9 @@ function onloadFunc() {
 }	
 //Checkng pass key
 function checkPass(){
-	if(window.localStorage.getItem('accessLevel') == 'novaHaven'){
+	if(window.localStorage.getItem('accessLevel') == 'slurp.derp'){
 		//Allow into NovaHaven
-		bar("Welcome to NovaHaven!");
+		bar("Welcome to NovaSlurp!");
 	}
 	else{
 		//Create a dummy pdf document if no bookletmark
